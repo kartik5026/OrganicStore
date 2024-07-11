@@ -1,0 +1,122 @@
+
+ #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+  margin: 1em;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1em 0;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.nav a {
+  padding: 10px 20px;
+  margin: 5px;
+  color: black;
+  text-decoration: none;
+  transition: background 200ms, color 200ms;
+}
+.nav a:hover {
+  
+  color: yellowgreen;
+  cursor: pointer;
+}
+
+/* Typography */
+.read-the-docs {
+  color: #888;
+  font-size: 1em;
+  margin-top: 1em;
+}
+
+/* Responsive design */
+/* @media (max-width: 1024px) {
+  .card {
+    padding: 1.5em;
+  }
+  .nav a {
+    padding: 8px 16px;
+    margin: 4px;
+  }
+}
+
+@media (max-width: 768px) {
+  #root {
+    padding: 1.5rem;
+  }
+  .logo {
+    height: 5em;
+  }
+  .card {
+    padding: 1em;
+  }
+  .nav {
+    flex-direction: column;
+  }
+  .nav a {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  #root {
+    padding: 1rem;
+  }
+  .logo {
+    height: 4em;
+  }
+  .card {
+    padding: 0.5em;
+  }
+  .nav a {
+    padding: 8px;
+  }
+} */
