@@ -77,7 +77,7 @@ function Cart() {
                 {totalPrice > 0 && <p className="mt-2">Total Price: ${totalPrice.toFixed(2)}</p>}
                 <button
                     onClick={() => dispatch(emptyCart())}
-                    className="bg-gray-500 hover:bg-gray-700 text-white rounded-md px-4 py-2 mt-2 "
+                    className="bg-gray-500 hover:bg-gray-700 text-white rounded-md px-4 py-2 mt-2 mx-4"
                 >
                     Clear Cart
                 </button>
