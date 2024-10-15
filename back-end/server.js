@@ -25,7 +25,7 @@ app.post("/checkout", async (req, res) => {
                 quantity:qty[index] || 1
             }
         }),
-        success_url:https://organicstore-mewb.onrender.com/success',
+        success_url:'https://organicstore-mewb.onrender.com/success',
         cancel_url:'https://organicstore-mewb.onrender.com/cancel',
 
     })
