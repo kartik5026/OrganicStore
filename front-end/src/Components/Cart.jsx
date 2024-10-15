@@ -24,7 +24,7 @@ function Cart() {
 
     async function checkOut(){
 
-        const res = await axios.post("http://localhost:3000/checkout",{qty,productName,price});
+        const res = await axios.post("https://organicstore-mewb.onrender.com/checkout",{qty,productName,price});
         window.location = res.data.url;
       
     }
