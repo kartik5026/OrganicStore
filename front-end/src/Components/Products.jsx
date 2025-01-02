@@ -11,6 +11,7 @@ function Product(props) {
         alert('Check out the cart for CheckOut !')
         const cartItemObj = {
             name,
+            
             price,
             url,
         };
