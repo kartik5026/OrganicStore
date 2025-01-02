@@ -8,7 +8,7 @@ function Product(props) {
     const dispatch = useDispatch();
     
     const addItem = () => {
-        alert('Check the cart for CheckOut !')
+        alert('Check out the cart for CheckOut !')
         const cartItemObj = {
             name,
             price,

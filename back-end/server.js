@@ -12,7 +12,7 @@ app.post("/checkout", async (req, res) => {
         payment_method_types : ['card'],
         mode:'payment',
         line_items:productName.map((item,index)=>{
-            
+             
             return{
                 price_data:{
                     currency:'usd',
